@@ -1,0 +1,80 @@
+@import url("https://rsms.me/inter/inter.css");
+
+html,
+body,
+#root {
+  position: relative;
+  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  outline: none;
+  width: 100vw;
+  height: 100vh;
+}
+#restt{
+  position: absolute;
+  top: 20px;
+  left: 30%;
+  background-color: #05a0f3;
+  z-index: +1;
+}
+
+body {
+  background: white;
+  font-family: "Inter var", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  position: absolute;
+  top: 110px;
+  left: 30px;
+  padding: 0;
+  margin: 40px;
+  font-size: 1m;
+  font-weight: 700;
+  line-height: 0.7em;
+  letter-spacing: 1px;
+  color: #272730;
+}
+
+.picker {
+  position: absolute !important;
+  top: 200px;
+  left: 70px;
+  width: 150px !important;
+  height: 150px !important;
+}
+
+button.connect-wallet {
+  border: none;
+  background-color: #05a0f3;
+  color: #ffffff;
+  padding: 10px 50px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.account-display {
+  margin-left: 20px;
+}
+
+.wallet-card {
+  width: 50%;
+  display: flex;
+  padding: 20px 20px 0px 20px;
+}
+#shot{
+  position: absolute;
+  z-index: +1;
+}
+label{
+  position: absolute;
+  visibility: hidden;
+}
+#export_object{
+  position: absolute;
+  z-index: +1;
+}
